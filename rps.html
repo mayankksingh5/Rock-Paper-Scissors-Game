@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Click one of the following to play the game</p>
+    <button
+      class="choice-button"
+      onclick="
+        rockClicked();
+    
+      "
+    >
+      👊Rock
+    </button>
+
+    <button
+      class="choice-button"
+      onclick="
+        paperClicked();
+      "
+    >
+      ✋Paper
+    </button>
+
+    <button
+      class="choice-button"
+      onclick="
+        scissorsClicked()
+      "
+    >
+      ✌️Scissors
+    </button>
+    <h4 id="result"></h4>
+    <script src="rps.js"></script>
+  </body>
+</html>
